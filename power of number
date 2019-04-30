@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int x,i,y,c;
+    printf("enter the 2 number");
+    scanf("%d%d",&x,&y);
+    c=1;
+    for(i=1; i<=y; i++)
+    {     
+		c=c*x;
+	}
+    printf(" %d",c);
+    getch();
+}
+Output : 
+2 10
+32
